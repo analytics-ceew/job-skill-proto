@@ -6,8 +6,7 @@ import json
 from openai import OpenAI
 import os
 from qdrant_client import QdrantClient,models
-from dotenv import load_dotenv
-load_dotenv()
+
 
 
 
