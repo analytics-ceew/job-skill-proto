@@ -55,7 +55,7 @@ def main():
                 
                 with st.expander(f"**:blue[{job.payload['sector']}]**     {job.payload['job_name']}", expanded=False):
                     st.write(f"**Similarity Score:** {job.score}")
-                    #st.write(job.payload['summary'])
+                    st.write(job.payload['summary'])
         else:
             st.write("No results to display. Please enter a job description and click Search.")
 
